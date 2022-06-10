@@ -6,7 +6,9 @@
 
 h2{
     color:  #094C40;
+    font-size: 4rem;
 }
+
 
 .nav-bar{
     /* border: 1px solid red; */
@@ -45,8 +47,6 @@ h2{
     top: 40%;
     left: 20%;
  }
- h2{
-    font-size: 4rem;
- }
+ 
 
 
