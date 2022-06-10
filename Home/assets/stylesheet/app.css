@@ -1,12 +1,4 @@
-/* defining global css variables */
-:root{
-    --primary-heading-text: #094C40;
-    --color-white: white;
-    --font-size-large: 120;
-    --font-size-small: 40;
-    --font-weight-bold: 75;
 
-}
 
 *{
     margin: 0px;
@@ -83,16 +75,3 @@ h2{
   }
 
 
-
- /* Second Section css */
- 
-
-.image{
-    max-width:  784px;
-    max-height: 659px;
-}
-
-.image img{
-    height: 100%;
-    width: 100%;
-}
