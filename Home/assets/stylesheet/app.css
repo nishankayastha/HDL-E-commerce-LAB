@@ -1,8 +1,20 @@
+/* defining global css variables */
+:root{
+    --primary-heading-text: #094C40;
+    --color-white: white;
+    --font-size-large: 120;
+    --font-size-small: 40;
+    --font-weight-bold: 75;
+
+}
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
+
+/* First-section css */
 
 h2{
     color:  #094C40;
@@ -47,6 +59,38 @@ h2{
     top: 40%;
     left: 20%;
  }
+
+
+ .mid-img{
+    position: absolute;
+    width: 70%;
+    margin: auto;
+    top: 75%;
+    left: 20%;
+ 
+ }
+
+
+  .first-section-text{  
+    background-color: #094C40;
+    color: white;
+  }
+ 
+  .first-row-logo{
+    margin-top: 10rem;
+  }
+
+
+
+ /* Second Section css */
  
 
+.image{
+    max-width:  784px;
+    max-height: 659px;
+}
 
+.image img{
+    height: 100%;
+    width: 100%;
+}
