@@ -66,26 +66,52 @@ h2{
   .first-section-text{  
     background-color: #094C40;
     color: white;
+
   }
 
   .block-para{
     width: 60%;
     margin: auto;
     /* border: 1px solid red; */
-    padding-top: 15rem;
+    padding-top: 18rem;
  
     letter-spacing: 1px;
     font-size: 1.3rem;
 }
 
+.wrap-logo{
+    padding: 4rem;
+
+}
 
 
  
  .first-row-logo , .second-row-logo{
-     display: flex;
-     justify-content: space-evenly;
-
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        /* border: 1px solid red; */
+        margin: auto;
     
  }
+ .line{
+    width: 70%;
+    margin: auto;
+    color: #ffff;
+   
+ }
+
+ a { 
+  
+   
+    margin-left: 13rem;
+    margin-bottom: 10rem;
+    text-decoration: none;
+    color: white;
+ }
+ 
+ 
 
 
