@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+h2{
+    color:  #094C40;
+}
 
 .nav-bar{
     /* border: 1px solid red; */
@@ -34,4 +37,16 @@
  .left > h4{
     margin-left: 1rem;
  }
+ .back-img{
+    position: relative;
+ }
+ .text{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+ }
+ h2{
+    font-size: 4rem;
+ }
+
 
