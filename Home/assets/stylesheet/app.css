@@ -68,10 +68,24 @@ h2{
     color: white;
   }
 
+  .block-para{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding-top: 15rem;
+ 
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+
 
  
- .first-row-logo{
-    margin-top: 30rem;
-  }
+ .first-row-logo , .second-row-logo{
+     display: flex;
+     justify-content: space-evenly;
+
+    
+ }
 
 
