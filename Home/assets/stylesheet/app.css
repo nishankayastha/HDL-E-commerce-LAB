@@ -43,10 +43,6 @@
     width: 100%;
     padding: 0 15px;
 }
-/* section{
-    margin: 40px 30px ;
-} */
-
 
 h1{
     font-size: var(--h1); 
@@ -88,12 +84,6 @@ h2{
     text-overflow: ellipsis;
     /* white-space: nowrap; */
    
-}
-
-
-.colgroup{
-    display: flex;
-    justify-content: space-between;  
 }
 
 .column{
