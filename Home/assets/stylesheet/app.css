@@ -1,10 +1,19 @@
 /* defining global css variables */
 :root{
-    --primary-heading-text: #094C40;
-    --color-white: white;
-    --font-size-large: 120;
-    --font-size-small: 40;
+    --h1-color: #094C40;
+    --white: white;
+    --font-size-large: 60px;
+    --font-size-small: 40px;
     --font-weight-bold: 75;
+
+    --h1: 120px;
+    --h2: 38px;
+    --h3: 90px;
+    --h4: 74px;
+    --h5: 60px;
+    --h6: 50px;
+    --p-large: 40px;
+    --p-small: 30px;
 
 }
 /* reset the css */
@@ -13,15 +22,99 @@
     padding: 0;
 }
 
+.container {
+    max-width: 1740px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container .heading p{
+    max-width: 70%;
+    margin: 50px 0;
+    font-size: var(--font-size-large);
+}
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.col {
+    width: 100%;
+    padding: 0 15px;
+}
+/* section{
+    margin: 40px 30px ;
+} */
 
 
+h1{
+    font-size: var(--h1); 
+    color: var(--h1-color);
+}
+
+h2{
+    font-size: var(--h2);
+    margin: 20px 0;
+}
+
+.image-text span{
+    color: var(--white);
+    font-size: var(--h1);
+    position: absolute;
+    width: 50%;
+    height: auto;
+}
+
+.image-text #top-right{
+    top: 5px;
+    right: -5%;
+}
+
+.image-text #bottom-left{
+    bottom: 5px;
+    left: 50px;
+}
 
 .image{
-    max-width:  784px;
-    max-height: 659px;
+    position: relative;
 }
 
-.image img{
-    height: 100%;
-    width: 100%;
+
+.article-content p{
+    font-size: var(--p-small); 
+    max-height:200px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    position: relative;
 }
+
+
+.colgroup{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.column{
+    max-height: 500px ;
+    max-width: 784px;
+    margin: 20px;
+}
+
+img{
+    width: 100%;
+    height: 40%;
+}
+
+.btn-readmore{
+    position: absolute;
+    right: 50%;
+}
+
+/* @media (min-width: 768px) {
+    h1 {
+        color: red;
+    }
+
+} */
