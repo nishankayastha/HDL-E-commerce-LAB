@@ -7,8 +7,8 @@
     --font-weight-bold: 75;
 
     --h1: 120px;
-    --h2: 38px;
-    --h3: 90px;
+    --h2: 90px;
+    --h3: 45px;
     --h4: 74px;
     --h5: 60px;
     --h6: 50px;
@@ -20,6 +20,10 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+p{
+    font-size: var(--h3);
 }
 
 .container {
@@ -115,3 +119,30 @@ img{
     }
 
 } */
+
+.section-footer{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+li{
+    list-style-type: none;
+}
+
+li::before{
+    content: "\002B";
+}
+.third-page{
+    color: var(--white);
+    background-color: var(--h1-color);
+    padding-top: 50px;
+    padding-left: 20px;
+    /* height: 100vh; */
+}
+
+.section-heading p{
+    width: 40%;
+    margin: 40px 0 40px 20px;
+}
+
