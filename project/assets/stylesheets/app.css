@@ -86,16 +86,16 @@ li{
     left: 177px;
 }
 
-.order-image{
-    /* height: 100%; */
+/* .order-image{
+    height: 100%;
     max-width: 1000px;
     margin: 0 auto -250px;
-}
+} */
 
-.order-image img{
+/* .order-image img{
     width: 100%;
 
-}
+} */
 
 .hero-content{
     background-color: var(--primary-color);
