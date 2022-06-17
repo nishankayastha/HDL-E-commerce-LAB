@@ -1,5 +1,5 @@
 :root{
-    --h1: 150px;
+    --h1: 80px;  
     --h2:120px;
     --h3: 90px;
     --h4: 45px;
@@ -11,7 +11,7 @@
 
     --fs-navbar: 33px;
     --fs-navbar-s: 22px;
-    --fs-p-l: 50px;
+    --fs-p-l: 30px;
     --fs-p-m: 40px;
     --fs-p-s: 30px;
     --fs-btn: 35px;
