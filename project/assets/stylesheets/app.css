@@ -54,6 +54,12 @@ li{
 
 .hero-banner{
     position: relative;
+    
+}
+
+.hero-wrap{
+    padding: 20rem;
+    margin-left:9rem;
 }
 
 .wrap-image{
@@ -75,8 +81,10 @@ li{
 }
 
 .wrap-image img:nth-child(3){
-    bottom: 200px;
+    /* bottom: 200px; */
+    bottom: 90px;
     right: 0;
+    z-index: -1;
 }
 
 .wrap-image h1{
@@ -107,8 +115,8 @@ li{
     font-size: var(--fs-p-l);
     color: var(--primary-white);
       max-width: 992px;
-    padding-left: 250px;
-    padding-top: 350px;  
+    /* padding-left: 250px;
+    padding-top: 350px;   */
 }
 
 .image-container .row{
