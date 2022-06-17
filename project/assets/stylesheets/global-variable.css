@@ -1,0 +1,47 @@
+:root{
+    --h1: 150px;
+    --h2:120px;
+    --h3: 90px;
+    --h4: 45px;
+    --h5: 38px;
+
+    --primary-color: #094C40;
+    --primary-white: #FFFFFF;
+
+
+    --fs-navbar: 33px;
+    --fs-navbar-s: 22px;
+    --fs-p-l: 50px;
+    --fs-p-m: 40px;
+    --fs-p-s: 30px;
+    --fs-btn: 35px;
+
+    --bold: bold;
+    
+}
+
+h1{
+    font-size: var(--h1);
+    color: var(--primary-color);
+}
+
+h2{
+    font-size: var(--h2);
+    
+}
+
+h3{
+    font-size: var(--h3);
+}
+
+h4{
+    font-size: var(--h4);
+}
+
+h5{
+    font-size: var(--h5);
+}
+
+h6{
+    font-size: var(--h6);
+}
